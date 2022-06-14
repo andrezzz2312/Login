@@ -78,10 +78,20 @@ main {
   flex-direction: row;
   width: 100vw;
   height: 100vh;
-
   background-color: hsl(262, 13%, 17%);
 }
 .menu {
   display: flex;
   flex-direction: column;
+  width: 20%;
+}
+.context {
+  display: flex;
+  width: 80%;
+  background-color: #515151;
+}
+button {
+  padding: 1rem;
+  background: #3b3b3b;
+  border: none;
 }
